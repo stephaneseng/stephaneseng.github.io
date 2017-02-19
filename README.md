@@ -7,6 +7,7 @@ Tool | Configuration files | Description
 npm | package.json | Package manager: Installs build and asset dependencies
 webpack | webpack.config.js | Module bundler: Compiles a single bundle.js from JS modules
 style-loader css-loader sass-loader | webpack.config.js | Integrate css and scss files into the DOM when required in JS modules
+vue | N/A | Vue.js JS framework
 webpack-dev-server | N/A | Invoked when the node server is run with npm start: Enable live compilation of bundle.js
 
 ## Information architecture
