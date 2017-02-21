@@ -1,10 +1,9 @@
 require("../scss/index.scss");
 
-import Vue from "vue";
+import Vue from 'vue';
+import Index from '../vue/Index.vue';
 
-var app = new Vue({
+new Vue({
     el: '#app',
-    data: {
-        message: 'Hello world!'
-    }
+    render: h => h(Index)
 });
