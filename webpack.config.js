@@ -21,6 +21,13 @@ module.exports = {
                         "sass-loader"
                     ]
                 })
+            },
+            {
+                test: /\.vue$/,
+                loader: 'vue-loader',
+                options: {
+                    loaders: {}
+                }
             }
         ]
     },
