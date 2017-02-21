@@ -6,3 +6,7 @@ install:
 
 start:
 	npm start
+
+clear:
+	rm -rf ./node_modules/
+	rm -rf ./assets/
